@@ -1,36 +1,30 @@
+name: api tests with postman executed using newman cli
 on:
   push:
-    branches:
+    branch:
       - main
-      - master
-  workflow_dispatch:
+  pull_request:
+    branch:
+      - '*'
 jobs:
-  playwrighttests:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v1
       - uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 8.0.x
-      - uses: actions/setup-node@v3
+          dotnet-version: '8'
+      - uses: actions/setup-node@v1
         with:
-          node-version: 18.x.x
-
-      - name: Install Angular program dependencies, Angular global CLI + ng build
-        run: cd api/frontend && npm i -g @angular/cli && npm i && ng build -c="development"
-
-      - name: Build test code and install playwright test browser
-        run: cd tests && dotnet build && pwsh bin/Debug/net8.0/playwright.ps1 install --with-deps
-
-      - name: Build and run Web API + getting process ID for shutting down later
-        run: cd api && dotnet run & echo "API_PID=$!" >> $GITHUB_ENV
+          node-version: '18'
+      - run: npm install -g newman
+      - name: Setup API and run tests
+        run: |
+          cd shell_scripts
+          chmod +x ./wait-for-it.sh
+          dotnet run --project=../api/ &
+          API_PID=$!
+          ./wait-for-it.sh -t 60 localhost:5000 -- && sh ./run-all-api-tests.sh
+          kill $API_PID
         env:
           pgconn: ${{secrets.PGCONN}}
-
-      - name: Run tests once API is running (sleep interval set to 60 seconds)
-        run: cd tests && sleep 60 && dotnet test
-        env:
-          pgconn: ${{secrets.PGCONN}}
-
-      - name: Shutdown Web API once the tests are done running
-        run: kill $API_PID
