@@ -1,7 +1,0 @@
-{
-  "name": "BoxStore",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
