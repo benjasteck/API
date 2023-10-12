@@ -20,11 +20,11 @@ jobs:
       - run: npm install -g newman
       - name: Setup API and run tests
         run: |
-          cd shell_scripts
+          cd shell-scripts
           chmod +x ./wait-for-it.sh
           dotnet run --project=../api/ &
           API_PID=$!
-          ./wait-for-it.sh -t 60 localhost:5000 -- && sh ./run-all-api-tests.sh
+          ./wait-for-it.sh -t 60 localhost:5001 -- && sh ./run-all-api-tests.sh
           kill $API_PID
         env:
           pgconn: ${{secrets.PGCONN}}
