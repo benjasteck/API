@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ionic-select-searchable": "^2.10.0",
+    "ng2-search-filter": "^0.5.1"
+  }
+}

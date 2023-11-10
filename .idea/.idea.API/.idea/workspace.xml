@@ -9,9 +9,766 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0780b0f4-34bc-49cb-a995-37de3e0291f1" name="Changes" comment="a bunch">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/apitest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/apitest.yaml" afterDir="false" />
+    <list default="true" id="0780b0f4-34bc-49cb-a995-37de3e0291f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/capacitor.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/ionic.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/box-feed.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/models.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/3925.b0d102e9fcf3cf86.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/polyfills-core-js.93f56369317b7a8e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/polyfills.441dd4ca9dc0674f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/accessibility-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/add-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/add-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/add-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/add-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/add-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/airplane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/albums-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/alert-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/alert-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/alert-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/alert-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/american-football-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/american-football-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/analytics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/aperture-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/apps-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/apps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/archive-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-back-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-down-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-down-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-down-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-down-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-down-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-forward-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-forward-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-forward-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-redo-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-redo-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-redo-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-redo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-undo-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-undo-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-undo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-up-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-up-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-up-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/arrow-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/at-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/at-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/at.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/attach-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/backspace-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-add-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-add-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-check-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-handle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-remove-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-remove-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-remove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bag-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/balloon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ban-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ban-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bandage-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bandage-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bar-chart-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bar-chart-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bar-chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/barbell-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/barbell-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/barbell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/barcode-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/barcode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/baseball-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/baseball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/basket-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/basket-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/basketball-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/battery-charging.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/battery-dead-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/battery-dead.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/battery-full-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/battery-full-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/battery-half-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/battery-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/beaker-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/beaker-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bed-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/beer-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/beer-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bicycle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bicycle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bluetooth-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bluetooth-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bluetooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/body-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/body-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/body.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bonfire-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bonfire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bookmark-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bookmark-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bookmarks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bowling-ball-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bowling-ball-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/briefcase-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/briefcase-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/briefcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/browsers-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/browsers-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/browsers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/brush-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/brush-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/brush.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bug-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bug-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/build-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/build.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bulb-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bus-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/bus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/business-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cafe-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cafe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/calculator-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/calendar-clear-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/calendar-number-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/calendar-number.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/calendar-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/call-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/call-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/camera-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/camera-reverse-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/camera-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/car-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/car.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/card-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-back-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-back-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-down-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-down-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-down-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-forward-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-up-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-up-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-up-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-up-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/caret-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cash-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cellular-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cellular-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cellular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chatbox-ellipses-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chatbox-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chatbubble-ellipses-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chatbubble-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chatbubble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/checkbox-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/checkbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/checkmark-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/checkmark-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/checkmark-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/checkmark-done-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/checkmark-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/checkmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-back-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-back-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-back-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-back-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-collapse-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-down-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-down-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-forward-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-forward-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-forward-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-up-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/chevron-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/clipboard-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/close-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/close-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/close-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/close-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-done-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-done.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-offline-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-offline-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-offline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-upload-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloud-upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloudy-night-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloudy-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cloudy-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/code-download-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/code-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/code-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/code-working.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cog-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/color-fill-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/color-filter-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/color-palette-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/color-wand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/compass-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/compass-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/compass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/construct-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/construct.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/contract-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/contract-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/contract.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/contrast-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/copy-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/create-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/create-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/crop-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cube-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cut-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/cut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/desktop-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/desktop-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/diamond.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/disc-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/document-attach-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/document-attach.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/document-lock-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/document-lock-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/document-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/document-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/document-text-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/document-text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/documents-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/documents.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/duplicate-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/earth-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/earth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/easel-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/egg-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/egg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipse-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipse-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipsis-horizontal-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipsis-horizontal-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipsis-horizontal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipsis-vertical-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipsis-vertical-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipsis-vertical-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ellipsis-vertical-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/enter-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/enter-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/exit-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/expand-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/extension-puzzle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/extension-puzzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/eye-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/eyedrop-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/eyedrop-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/fast-food.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/female-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/female-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/file-tray-full-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/file-tray-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/file-tray-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/file-tray-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/file-tray-stacked.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/film-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/film-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/film.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/filter-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/filter-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/filter-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/filter-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/filter-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/finger-print-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/finger-print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/fish.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/fitness-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/fitness-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/fitness.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flag-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flag-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flame-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flash-off-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flashlight-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flashlight-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flask-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flask-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flask.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flower-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/flower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/folder-open-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/folder-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/folder-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/football-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/football-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/football.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/footsteps-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/footsteps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/game-controller-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/game-controller.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/gift-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-branch-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-branch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-commit-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-commit-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-commit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-compare-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-merge-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-merge-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-network-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-network-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-network.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-pull-request-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-pull-request-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/git-pull-request.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/glasses-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/globe-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/golf-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/golf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/hammer-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/hand-left-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/hand-left-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/hand-right-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/happy-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/hardware-chip-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/headset-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/headset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/heart-dislike-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/heart-dislike-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/heart-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/help-buoy-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/help-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/help-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/help-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/help-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/home-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/hourglass-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/hourglass-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/id-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/image-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/images-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/images-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/images.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/infinite-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/infinite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/information-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/information-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/information-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/information.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/invert-mode-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/invert-mode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/journal-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/journal-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/journal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/key-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/key-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/keypad-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/language-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/laptop-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/laptop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/layers-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/leaf-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/leaf-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/leaf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/library-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/list-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/list-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/list-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/locate-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/locate-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/locate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/location-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/location-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/location.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/lock-closed-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/lock-closed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/lock-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/log-in-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/log-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/log-out-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/log-out-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/log-out.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-alipay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-amazon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-amplify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-angular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-apple-ar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-behance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-buffer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-chrome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-closed-captioning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-deviantart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-discord.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-dropbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-edge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-electron.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-figma.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-firebase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-foursquare.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-google-playstore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-html5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-ionic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-ionitron.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-laravel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-markdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-mastodon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-nodejs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-playstation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-pwa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-soundcloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-stencil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-tiktok.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-tumblr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-twitch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-vimeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-xbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-yahoo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-yen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/logo-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/magnet-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mail-open-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mail-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mail-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/male-female-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/male-female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/male-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/male-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/man-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/man.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/map-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/map-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/medal-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/medal-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/medal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/medical-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/medical-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/medkit-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/megaphone-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/megaphone-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/megaphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/menu-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-off-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-off-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-off-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-off-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/mic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/move-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/move-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/move.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/musical-note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/musical-notes-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/musical-notes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/navigate-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/navigate-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/navigate-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/navigate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/newspaper-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/newspaper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/notifications-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/notifications-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/notifications-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/notifications-off-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/notifications-off-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/notifications-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/notifications-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/notifications.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/nuclear-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/nuclear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/nutrition-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/open-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/open-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/options-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/options.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/paper-plane-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pause-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/paw-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pencil-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pencil-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/people-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/people-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/person-add-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/person-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/person-remove-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/person-remove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/person-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/person.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/phone-landscape-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/phone-landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/phone-portrait-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/phone-portrait-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pie-chart-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pie-chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pin-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pin-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pint-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pint-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pizza-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pizza-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pizza.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/planet-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/planet-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/planet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-back-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-back-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-back-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-forward-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-forward-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-forward-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-skip-back-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-skip-back-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-skip-back-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-skip-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-skip-forward-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play-skip-forward-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/podium-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/podium-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/podium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/power-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/power-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pricetag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/pricetags.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/print-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/push-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/push-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/push.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/qr-code-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/radio-button-off-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/radio-button-on-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/radio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reader.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/receipt-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/receipt-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/recording-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/recording-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/recording.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/refresh-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/refresh-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/refresh-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reload-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reload-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/remove-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/remove-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reorder-three-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reorder-three-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reorder-three.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reorder-two-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reorder-two-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/reorder-two.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/repeat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/resize-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/restaurant-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/restaurant.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/return-down-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/return-down-forward-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/return-down-forward-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/return-down-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/return-up-back-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/return-up-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/return-up-forward-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/return-up-forward-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ribbon-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ribbon-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/rocket-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/rose-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/rose-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/sad-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/scan-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/scan-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/scan-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/scan-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/search-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/search-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/search-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/search-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/send-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/send-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/send.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shapes-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/share-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/share-social-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shield-checkmark-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shield-checkmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shield-half-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shield-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shield-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shirt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/shuffle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/skull-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/skull.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/snow-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/sparkles-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/speedometer-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/speedometer-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/square-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/star-half-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/star-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/stats-chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/stop-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/stop-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/stop-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/storefront-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/subway-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/subway-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/sunny-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/sunny-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/swap-horizontal-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/swap-horizontal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/swap-vertical-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/swap-vertical-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/sync-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/sync-circle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/sync-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/tablet-landscape-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/tablet-portrait-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/tablet-portrait-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/tablet-portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/telescope-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/telescope-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/telescope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/tennisball-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/text-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/text-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/thermometer-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/thermometer-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/thumbs-down-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/thumbs-down-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/thumbs-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/thumbs-up-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ticket-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/timer-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/timer-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/timer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/toggle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trail-sign-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/train-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/transgender-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/transgender.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trash-bin-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trash-bin-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trash-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trash-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trending-down-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trending-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trending-up-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/triangle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/triangle-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/triangle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/trophy-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/tv-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/tv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/umbrella-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/umbrella-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/umbrella.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/unlink-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/unlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/videocam-off-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/videocam-off-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/videocam-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/videocam-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/volume-high-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/volume-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/volume-low-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/volume-medium-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/volume-medium-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/volume-mute.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/volume-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/walk-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/wallet-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/wallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/watch-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/watch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/water-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/water-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/wifi-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/wifi-sharp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/woman-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/www/svg/woman-sharp.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,36 +812,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.26212472&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\benja\\RiderProjects\\API\\frontend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.26212472",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Users\\benja\\RiderProjects\\API\\frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\benja\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\benja\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\benja\\AppData\\Local\\Symbols\\src&quot;
+    "rider.external.source.directories": [
+      "C:\\Users\\benja\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\benja\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\benja\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API: http">
     <configuration name="API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
@@ -149,7 +906,10 @@
       <workItem from="1696964067656" duration="29602000" />
       <workItem from="1697033514346" duration="3684000" />
       <workItem from="1697040157805" duration="12332000" />
-      <workItem from="1697097058903" duration="11449000" />
+      <workItem from="1697097058903" duration="12871000" />
+      <workItem from="1698053467271" duration="2754000" />
+      <workItem from="1699406171013" duration="3430000" />
+      <workItem from="1699445249361" duration="23740000" />
     </task>
     <task id="LOCAL-00001" summary="  workflow">
       <option name="closed" value="true" />
@@ -175,7 +935,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697108906919</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="correction">
+      <option name="closed" value="true" />
+      <created>1697109823409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697109823409</updated>
+    </task>
+    <task id="LOCAL-00005" summary="correction">
+      <option name="closed" value="true" />
+      <created>1697109915263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697109915264</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +964,12 @@
     <MESSAGE value="  workflow" />
     <MESSAGE value="json files" />
     <MESSAGE value="a bunch" />
-    <option name="LAST_COMMIT_MESSAGE" value="a bunch" />
+    <MESSAGE value="sf" />
+    <MESSAGE value="correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

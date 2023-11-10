@@ -38,21 +38,20 @@ FROM public.box;
         }
     }
     
-    public Box CreateBox(long typeid,string material, long price)
+    public Box CreateBox(int typeid,string material, long price)
     {
         var sql = $@"
 INSERT INTO public.box (type, weight, price) 
-VALUES (@typeid, @material, @price, )
+VALUES (@typeid, @material, @price)
 RETURNING id as {nameof(Box.id)},
        typeid as {nameof(Box.typeid)},
-        material as {nameof(Box.material)}
-        price as {nameof(Box.price)}
-
-        
+        material as {nameof(Box.material)},
+        price as {nameof(Box.price)};
 ";
+        
         using (var conn = _dataSource.OpenConnection())
         {
-            return conn.QueryFirst<Box>(sql, new { typeid, material, price});
+            return conn.QueryFirst<Box>(sql, new { typeid, material, price });
         }
     }
 
@@ -85,7 +84,7 @@ RETURNING id as {nameof(Box.id)},
             return conn.QueryFirst<Box>(sql, new { id,typeid, price, material});
         }
     }
-    public IEnumerable<Box> searchBox(Search parameters)
+    public IEnumerable<Box> SearchBox(String searchterm)
     {
         var sql = $@"
         SELECT 
@@ -94,13 +93,13 @@ RETURNING id as {nameof(Box.id)},
             material as {nameof(Box.material)}
          price as {nameof(Box.price)}
         FROM public.box
-        WHERE (LOWER(typeid) LIKE LOWER(@SearchTerm) OR LOWER(material) LIKE LOWER(@SearchTerm) OR LOWER(price) LIKE LOWER(@SearchTerm))";
+        WHERE (LOWER(typeid) ILIKE LOWER(@SearchTerm) OR LOWER(material) ILIKE LOWER(@SearchTerm) OR LOWER(price) ILIKE LOWER(@SearchTerm))";
 
         using (var conn = _dataSource.OpenConnection())
         {
             return conn.Query<Box>(sql, new
             {
-                SearchTerm = "%" + parameters.SearchTerm + "%"
+                SearchTerm = $"%{searchterm}%"
             });
         }
     }

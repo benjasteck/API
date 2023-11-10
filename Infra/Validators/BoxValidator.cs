@@ -10,6 +10,6 @@ public class BoxValidator : AbstractValidator<Box>
         RuleFor(p => p.id).NotNull();
         RuleFor(p => p.typeid).NotEmpty().NotNull();
         RuleFor(p => p.material).NotEmpty().NotNull();
-        RuleFor(p => p.price).GreaterThan(0).NotNull().NotEmpty();
+        RuleFor(p => p.price).NotNull().NotEmpty();
     }
 }

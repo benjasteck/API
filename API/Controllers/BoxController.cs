@@ -1,4 +1,6 @@
-﻿using API.Model;
+﻿using API.Filter;
+
+using API.Model;
 using Infra.InfModels;
 
 using Microsoft.AspNetCore.Mvc;
@@ -28,37 +30,43 @@ public class BoxController : ControllerBase
     }
     
     [HttpGet]
-    [Route("/boxes/{id}")]
+    [Route("/api/boxes/{id}")]
     public Box getFullBox(int id)
     {
         return _boxService.getFullBox(id);
     }
     
     [HttpPut]
-    [Route("/boxes/{id}")]
+    [Route("/api/boxes/{id}")]
     public Box updateBox([FromRoute] int id, [FromBody] BoxUpdateDto dto)
     {
         return _boxService.updateBox(id, dto.typeid, dto.material, dto.price);
     }
     
     [HttpPost]
-    [Route("/boxes")]
-    public Box PostBox([FromBody] BoxCreateDto dto)
+    [ValidateModel]
+    [Route("/api/boxes")]
+    public ResponseDto Post([FromBody] BoxCreateDto dto)
     {
-        return _boxService.CreateBox(dto.typeid, dto.material, dto.price); 
+        HttpContext.Response.StatusCode = StatusCodes.Status201Created;
+        return new ResponseDto()
+        {
+            MessageToClient = "Successfully created a box",
+            ResponseData = _boxService.CreateBox(dto.typeid, dto.material, dto.price)
+        };
     }
     
     [HttpDelete]
-    [Route("/boxes/{id}")]
+    [Route("/api/boxes/{id}")]
     public void DeleteBox([FromRoute] int id)
     {
         _boxService.DeleteBox(id);
     }
     
     [HttpGet]
-    [Route("/searchBoxes")]
-    public IEnumerable<Box> searchBox([FromQuery] Search parameters)
+    [Route("/api/boxes")]
+    public IEnumerable<Box> Search([FromQuery] BoxSearchDto searchBoxesDto)
     {
-        return _boxService.searchBox(parameters);
+        return _boxService.SearchBox(searchBoxesDto.SearchTerm);
     }
 }

@@ -20,7 +20,7 @@ public class BoxService
         return _boxRep.getFullBox(id);
     }
     
-    public Box CreateBox(long typeid, string material, long price)
+    public Box CreateBox(int typeid, string material, long price)
     {
         return _boxRep.CreateBox(typeid, material, price);
     }
@@ -35,8 +35,15 @@ public class BoxService
         _boxRep.DeleteBox(id);
     }
     
-    public IEnumerable<Box> searchBox(Search parameters)
+    public IEnumerable<Box> SearchBox(String searchterm)
     {
-        return _boxRep.searchBox(parameters);
+        try
+        {
+            return _boxRep.SearchBox(searchterm);
+        }
+        catch (Exception)
+        {
+            throw new Exception("Could not search for boxes");
+        }
     }
 }

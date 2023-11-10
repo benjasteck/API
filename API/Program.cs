@@ -26,7 +26,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-var frontEndPath = "./../frontend/www";
+var frontEndPath = "../frontend/www";
 builder.Services.AddSpaStaticFiles(conf => conf.RootPath = frontEndPath);
 var app = builder.Build();
 
