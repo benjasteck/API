@@ -14,7 +14,7 @@ import { State } from "../state";
 
     <ion-list>
       <ion-item>
-        <ion-input [formControl]="createNewBoxForm.controls.typeid" type="number" data-testid="weightInput"  label="Type id of the box">
+        <ion-input [formControl]="createNewBoxForm.controls.typeid" type="number" data-testid="weightInput"  label="Type id of the box" min=1 max=9>
         </ion-input>
       </ion-item>
       <ion-item>
@@ -26,7 +26,7 @@ import { State } from "../state";
         </ion-select>
       </ion-item>
       <ion-item>
-        <ion-input [formControl]="createNewBoxForm.controls.price" type="number" data-testid="priceInput"  label="Price of the box">
+        <ion-input [formControl]="createNewBoxForm.controls.price" type="number" data-testid="priceInput"  label="Price of the box" min="100">
         </ion-input>
       </ion-item>
 
@@ -40,7 +40,7 @@ import { State } from "../state";
 export class CreateBoxComponent {
 
   createNewBoxForm = this.fb.group({
-    typeid: ['', Validators.maxLength(1)],
+    typeid: ['', Validators.maxLength(1) ],
     material: ['', Validators.pattern('(?:cardboard|metal|plastic|wood)')],
     price: ['', Validators.minLength(4)],
   })

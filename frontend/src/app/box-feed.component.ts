@@ -15,7 +15,7 @@ import {search} from "ionicons/icons";
 @Component({
   template: `
     <ion-header  vertical="top">
-      <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="filterItems()" color="primary" placeholder="Search for box material(plastic, metal etc) " type="text" debounce="500" (ionChange)="getItems($event)"></ion-searchbar>
+      <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="filterItems()" color="primary" placeholder="Search for box material(plastic, metal etc) " type="text" debounce="500"></ion-searchbar>
     </ion-header>
 
 
@@ -45,7 +45,7 @@ import {search} from "ionicons/icons";
     </ion-list >
     <ion-list *ngIf="filteredBoxes.length === 0">
       <ion-item>
-        No boxes found.
+        aint no box matchin that
       </ion-item>
     </ion-list>
     <ion-fab  vertical="top" style="padding: 20px 20px 20px 20px;">
